@@ -1,7 +1,7 @@
 from flask import Flask, request, render_template
 import db  # author: Linu(s|x)
 
-app = Flask(__name__, template_folder="./public")
+app = Flask(__name__, template_folder="./templates")
 
 username = "bilbo_swaggins69"
 
@@ -13,13 +13,15 @@ def index():
     for movie in recommended:
         movie_meta.append({"title": movie["title"], "id": movie["id"]})
 
-    return render_template("public/index.html", variables=recommended)
+    print("asked for index")
+    return render_template("index.html", variables=recommended)
 
 
 @app.route('/query', methods=['GET'])
 def movies():
     genre = request.args.get("genre")
     string = request.args.get("string")
+    print("querying")
 
     entries = db.find_movie(string)
     recents = db.get_recents()

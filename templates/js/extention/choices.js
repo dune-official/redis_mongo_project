@@ -312,7 +312,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  /**
 	   * Initialise Choices
 	   * @return
-	   * @public
+	   * @templates
 	   */
 
 
@@ -349,7 +349,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	    /**
 	     * Destroy Choices and nullify values
 	     * @return
-	     * @public
+	     * @templates
 	     */
 
 	  }, {
@@ -677,7 +677,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	     * @param  {Element} item Element to select
 	     * @param  {Boolean} [runEvent=true] Whether to trigger 'highlightItem' event
 	     * @return {Object} Class instance
-	     * @public
+	     * @templates
 	     */
 
 	  }, {
@@ -719,7 +719,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	     * Deselect item
 	     * @param  {Element} item Element to de-select
 	     * @return {Object} Class instance
-	     * @public
+	     * @templates
 	     */
 
 	  }, {
@@ -756,7 +756,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	    /**
 	     * Highlight items within store
 	     * @return {Object} Class instance
-	     * @public
+	     * @templates
 	     */
 
 	  }, {
@@ -775,7 +775,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	    /**
 	     * Deselect items within store
 	     * @return {Object} Class instance
-	     * @public
+	     * @templates
 	     */
 
 	  }, {
@@ -795,7 +795,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	     * Remove an item from the store by its value
 	     * @param  {String} value Value to search for
 	     * @return {Object} Class instance
-	     * @public
+	     * @templates
 	     */
 
 	  }, {
@@ -823,7 +823,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	     * @note Removed items are soft deleted
 	     * @param  {Number} excludedId Optionally exclude item by ID
 	     * @return {Object} Class instance
-	     * @public
+	     * @templates
 	     */
 
 	  }, {
@@ -846,7 +846,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	     * Remove all selected items from store
 	     * @note Removed items are soft deleted
 	     * @return {Object} Class instance
-	     * @public
+	     * @templates
 	     */
 
 	  }, {
@@ -875,7 +875,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	    /**
 	     * Show dropdown to user by adding active state class
 	     * @return {Object} Class instance
-	     * @public
+	     * @templates
 	     */
 
 	  }, {
@@ -920,7 +920,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	    /**
 	     * Hide dropdown from user
 	     * @return {Object} Class instance
-	     * @public
+	     * @templates
 	     */
 
 	  }, {
@@ -953,7 +953,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	    /**
 	     * Determine whether to hide or show dropdown based on its current state
 	     * @return {Object} Class instance
-	     * @public
+	     * @templates
 	     */
 
 	  }, {
@@ -973,7 +973,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	     * Get value(s) of input (i.e. inputted items (text) or selected choices (select))
 	     * @param {Boolean} valueOnly Get only values of selected items, otherwise return selected items
 	     * @return {Array/String} selected value (select-one) or array of selected items (inputs & select-multiple)
-	     * @public
+	     * @templates
 	     */
 
 	  }, {
@@ -1006,7 +1006,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	     * an item will created directly.
 	     * @param  {Array}   args  Array of value objects or value strings
 	     * @return {Object} Class instance
-	     * @public
+	     * @templates
 	     */
 
 	  }, {
@@ -1055,7 +1055,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	     * Select value of select box via the value of an existing choice
 	     * @param {Array/String} value An array of strings of a single string
 	     * @return {Object} Class instance
-	     * @public
+	     * @templates
 	     */
 
 	  }, {
@@ -1096,7 +1096,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	     * @param  {String} label - Name of 'label' property
 	     * @param  {Boolean} replaceChoices Whether existing choices should be removed
 	     * @return {Object} Class instance
-	     * @public
+	     * @templates
 	     */
 
 	  }, {
@@ -1141,7 +1141,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	     * Clear items,choices and groups
 	     * @note Hard delete
 	     * @return {Object} Class instance
-	     * @public
+	     * @templates
 	     */
 
 	  }, {
@@ -1154,7 +1154,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	    /**
 	     * Set value of input to blank
 	     * @return {Object} Class instance
-	     * @public
+	     * @templates
 	     */
 
 	  }, {
@@ -1201,7 +1201,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	    /**
 	     * Disable interaction with Choices
 	     * @return {Object} Class instance
-	     * @public
+	     * @templates
 	     */
 
 	  }, {
@@ -1228,7 +1228,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	     * Populate options via ajax callback
 	     * @param  {Function} fn Function that actually makes an AJAX request
 	     * @return {Object} Class instance
-	     * @public
+	     * @templates
 	     */
 
 	  }, {
@@ -2405,7 +2405,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	     * @param {Number} [groupId=-1] ID of group choice is within. Negative number indicates no group
 	     * @param {Object} [customProperties] Object containing user defined properties
 	     * @return {Object} Class instance
-	     * @public
+	     * @templates
 	     */
 
 	  }, {
@@ -2471,7 +2471,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	     * Remove item from store
 	     * @param {Object} item Item to remove
 	     * @return {Object} Class instance
-	     * @public
+	     * @templates
 	     */
 
 	  }, {
@@ -2996,7 +2996,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	   * Sets a new list for Fuse to match against.
 	   * @param {!Array} list
 	   * @return {!Array} The newly set list
-	   * @public
+	   * @templates
 	   */
 	  Fuse.prototype.set = function (list) {
 	    this.list = list
@@ -3479,7 +3479,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	   * @return {{isMatch: boolean, score: number}} Literal containing:
 	   *                          isMatch - Whether the text is a match or not
 	   *                          score - Overall score for the match
-	   * @public
+	   * @templates
 	   */
 	  BitapSearcher.prototype.search = function (text) {
 	    var options = this.options
